@@ -1,0 +1,13 @@
+{
+  "id": "3",
+  "title": "Aswathy Villa",
+  "description": "Interior design project by Yezda Interiors: Aswathy Villa",
+  "images": [
+    "./images/image_1.jpeg",
+    "./images/image_2.jpeg",
+    "./images/image_3.jpeg",
+    "./images/image_4.jpeg",
+    "./images/image_5.jpeg",
+    "./images/image_6.jpeg"
+  ]
+}

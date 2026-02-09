@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Yezda Interiors</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="/" class="logo">
+                    <img src="/images/logo.png" alt="Yezda Interiors Logo">
+                </a>
+                <div class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</div>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/projects" class="active">Projects</a></li>
+                    <li><a href="/careers">Career</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header projects-hero"
+            style="background-color: var(--secondary-color); color: var(--white); padding: 60px 0; text-align: center;">
+            <div class="container">
+                <h1>Our Projects</h1>
+                <p>A Glimpse into our Masterpieces</p>
+            </div>
+        </section>
+
+        <section class="gallery section-padding">
+            <div class="container fade-in-up">
+                <!-- Added ID for dynamic injection -->
+                <div id="projects-container" class="gallery-grid">
+                    <!-- Projects will be loaded dynamically by src/projects.js -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Yezda Interiors</h3>
+                    <p>11/200 A3, Kallarakkal Building<br>Pipeline Road, Pallilamkara<br>Kalamassery, Ernakulam 683503
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p>Phone:<br>
+                        <a href="tel:04842948020">0484 2948020</a><br>
+                        <a href="tel:+919037085405">+91 9037 08 5405</a><br>
+                        <a href="tel:+918590897668">+91 8590 89 7668</a>
+                    </p>
+                    <p>Email: info.yezdainteriors@gmail.com</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/careers">Career</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div style="display: flex; gap: 15px;">
+                        <a href="https://www.facebook.com/share/1Hpyzr9b66/?mibextid=wwXIfr" target="_blank"
+                            aria-label="Facebook"
+                            style="color: var(--white); display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; transition: all 0.3s;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/yezda_design_build?igsh=dDE5cmZuZHc3b21t&utm_source=qr"
+                            target="_blank" aria-label="Instagram"
+                            style="color: var(--white); display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; transition: all 0.3s;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Yezda Interiors. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="module" src="/src/projects.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Yezda Interiors</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="/" class="logo">
+                    <img src="/images/logo.png" alt="Yezda Interiors Logo">
+                </a>
+                <div class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</div>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/careers">Career</a></li>
+                    <li><a href="/contact" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header contact-hero"
+            style="background-color: var(--secondary-color); color: var(--white); padding: 60px 0; text-align: center;">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p>Let's build your dream space together.</p>
+            </div>
+        </section>
+
+        <section class="contact-section section-padding">
+            <div class="container fade-in-up">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <p>Feel free to reach out to us for any inquiries or to schedule a consultation.</p>
+
+                        <div class="info-item">
+                            <h3><span class="material-symbols-outlined"
+                                    style="vertical-align: middle; margin-right: 8px; color: var(--primary-color);">location_on</span>
+                                Address</h3>
+                            <p>11/200 A3, Kallarakkal Building<br>Pipeline Road, Pallilamkara<br>Kalamassery, Ernakulam
+                                683503</p>
+                        </div>
+
+                        <div class="info-item">
+                            <h3><span class="material-symbols-outlined"
+                                    style="vertical-align: middle; margin-right: 8px; color: var(--primary-color);">call</span>
+                                Phone</h3>
+                            <p><a href="tel:04842948020">0484 2948020</a></p>
+                            <p><a href="tel:+919037085405">+91 9037 08 5405</a></p>
+                            <p><a href="tel:+918590897668">+91 8590 89 7668</a></p>
+                        </div>
+
+                        <div class="info-item">
+                            <h3><span class="material-symbols-outlined"
+                                    style="vertical-align: middle; margin-right: 8px; color: var(--primary-color);">mail</span>
+                                Email</h3>
+                            <p><a href="mailto:info.yezdainteriors@gmail.com">info.yezdainteriors@gmail.com</a></p>
+                        </div>
+
+                        <div class="info-item">
+                            <h3><span class="material-symbols-outlined"
+                                    style="vertical-align: middle; margin-right: 8px; color: var(--primary-color);">schedule</span>
+                                Office Hours</h3>
+                            <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <h2>Send a Message</h2>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="title" placeholder="Project Type">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required
+                                    placeholder="Tell us about your project..."></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section section-padding" style="background-color: var(--light-gray);">
+            <div class="container">
+                <div class="map-container"
+                    style="position: relative; border-radius: 8px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.3276632731835!2d76.3168273748809!3d10.057778390050058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d90ca153f31%3A0xe3498f3b063806c9!2sYezda%20Interiors%20and%20contracting!5e0!3m2!1sen!2sin!4v1703648434771!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <div class="map-overlay-card">
+                        <h3>Visit Our Studio</h3>
+                        <p>Experience our designs firsthand.</p>
+                        <a href="https://maps.app.goo.gl/6NdQ6Tvim4E6DHcp7" target="_blank" class="btn">Get Directions
+                            <span class="material-symbols-outlined" style="margin-left: 8px;">near_me</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h3>Yezda Interiors</h3>
+                        <p>11/200 A3, Kallarakkal Building<br>Pipeline Road, Pallilamkara<br>Kalamassery, Ernakulam
+                            683503
+                        </p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact</h3>
+                        <p>Phone:<br>
+                            <a href="tel:04842948020">0484 2948020</a><br>
+                            <a href="tel:+919037085405">+91 9037 08 5405</a><br>
+                            <a href="tel:+918590897668">+91 8590 89 7668</a>
+                        </p>
+                        <p>Email: info.yezdainteriors@gmail.com</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/projects">Projects</a></li>
+                            <li><a href="/careers">Career</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Follow Us</h3>
+                        <div style="display: flex; gap: 15px;">
+                            <a href="https://www.facebook.com/share/1Hpyzr9b66/?mibextid=wwXIfr" target="_blank"
+                                aria-label="Facebook"
+                                style="color: var(--white); display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; transition: all 0.3s;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path
+                                        d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/yezda_design_build?igsh=dDE5cmZuZHc3b21t&utm_source=qr"
+                                target="_blank" aria-label="Instagram"
+                                style="color: var(--white); display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; transition: all 0.3s;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Yezda Interiors. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Success Popup -->
+        <div id="success-popup" class="popup-overlay hidden">
+            <div class="popup-content">
+                <div class="popup-icon">
+                    <span class="material-symbols-outlined">check_circle</span>
+                </div>
+                <h2>Message Sent</h2>
+                <p>Thank you for reaching out. We will get back to you shortly.</p>
+                <button id="close-popup" class="btn">Close</button>
+            </div>
+        </div>
+
+        <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
