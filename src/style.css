@@ -314,8 +314,8 @@ nav {
 }
 
 .logo img {
-  height: 48px;
-  /* Reduced logo size */
+  height: 60px;
+  /* Increased logo size */
   transition: transform 0.3s ease;
 }
 
@@ -1840,7 +1840,7 @@ footer {
 }
 
 #intro-logo {
-  width: 250px;
+  width: 320px;
   max-width: 80vw;
   /* Start large */
   height: auto;
